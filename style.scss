@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap");
+
+body {
+  background: url(back.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.takims {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  .ateam {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background-color: rgba(42, 87, 114, 0.8);
+    color: #fff;
+    width: 550px;
+    height: 500px;
+    justify-content: center;
+
+    .btns {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    #change1 {
+      font-family: Roboto, sans-serif;
+      font-weight: 0;
+      font-size: 30px;
+      color: #fff;
+      background-color: #0066cc;
+      padding: 10px 30px;
+      border: 2px solid #0066cc;
+      box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+      border-radius: 50px;
+      transition: 2314ms;
+      transform: translateY(0);
+      animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+      @keyframes tracking-in-contract-bck-top {
+          0% {
+            letter-spacing: 1em;
+            transform: translateZ(400px) translateY(-300px);
+            opacity: 0;
+          }
+          40% {
+            opacity: 0.6;
+          }
+          100% {
+            transform: translateZ(0) translateY(0);
+            opacity: 1;
+          }
+        }
+      
+      
+  }
+
+
+  #numberr {
+    font-size: 60px;
+    animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    @keyframes tracking-in-contract-bck-top {
+        0% {
+          letter-spacing: 1em;
+          transform: translateZ(400px) translateY(-300px);
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          transform: translateZ(0) translateY(0);
+          opacity: 1;
+        }
+      }
+      
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  .bteam {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background-color: rgba(42, 87, 114, 0.8);
+    color: #fff;
+    width: 550px;
+    height: 500px;
+    justify-content: center;
+    .btns{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    #change2 {
+        font-family: Roboto, sans-serif;
+        font-weight: 0;
+        font-size: 30px;
+        color: #fff;
+        background-color: #0066cc;
+        padding: 10px 30px;
+        border: 2px solid #0066cc;
+        box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+        border-radius: 50px;
+        transition: 2314ms;
+        transform: translateY(0);
+        animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+        @keyframes tracking-in-contract-bck-top {
+            0% {
+              letter-spacing: 1em;
+              transform: translateZ(400px) translateY(-300px);
+              opacity: 0;
+            }
+            40% {
+              opacity: 0.6;
+            }
+            100% {
+              transform: translateZ(0) translateY(0);
+              opacity: 1;
+            }
+          }
+    }
+    #numberr2 {
+        font-size: 60px;
+    animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    @keyframes tracking-in-contract-bck-top {
+        0% {
+          letter-spacing: 1em;
+          transform: translateZ(400px) translateY(-300px);
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          transform: translateZ(0) translateY(0);
+          opacity: 1;
+        }
+      }
+      
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+button {
+  font-family: Roboto, sans-serif;
+  font-weight: 0;
+  font-size: 14px;
+  color: #fff;
+  background-color: #0066cc;
+  padding: 10px 30px;
+  border: 2px solid #0066cc;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition: 2314ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    transition: 2314ms;
+    padding: 10px 20px;
+    transform: translateY(-0px);
+    background-color: #fff;
+    color: #050505;
+    border: solid 2px #161617;
+  }
+}
