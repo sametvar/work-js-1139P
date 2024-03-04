@@ -55,7 +55,7 @@ body {
     opacity: 1;
   }
 }
-.takims .ateam #numberr {
+.takims .ateam #numberrA {
   font-size: 60px;
   animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
@@ -72,6 +72,17 @@ body {
     transform: translateZ(0) translateY(0);
     opacity: 1;
   }
+}
+.takims .adm {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.takims .adm #scorePr, .takims .adm .scorePr {
+  margin: 20px 0px;
+  font-size: 9px;
+  text-align: center;
+  background-color: #3b6fb3;
 }
 .takims .bteam {
   display: flex;
@@ -118,7 +129,7 @@ body {
     opacity: 1;
   }
 }
-.takims .bteam #numberr2 {
+.takims .bteam #numberrB {
   font-size: 60px;
   animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }

@@ -59,7 +59,7 @@ body {
   }
 
 
-  #numberr {
+  #numberrA {
     font-size: 60px;
     animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     @keyframes tracking-in-contract-bck-top {
@@ -79,12 +79,25 @@ body {
       
 
 }
+
+
 }
 
 
 
 
-
+.adm {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  
+  #scorePr,.scorePr {
+    margin: 20px 0px;
+    font-size: 9px;
+    text-align: center;
+    background-color:#3b6fb3;
+  }
+}
 
 
 
@@ -137,7 +150,7 @@ body {
             }
           }
     }
-    #numberr2 {
+    #numberrB {
         font-size: 60px;
     animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     @keyframes tracking-in-contract-bck-top {
